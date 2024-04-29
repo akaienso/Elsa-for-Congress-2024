@@ -1,0 +1,53 @@
+/**
+ * Theme Name:        Elsa for Congress
+ * Template:          twentytwentyfour
+ * Description:       A child theme of Twenty Twenty Four.
+ * Version:           1.0.0
+ * Author:            Rob Moore
+ * Author URI:        https://elsaforcongress.com
+ * Tags:              block-patterns, full-site-editing
+ * Text Domain:       elsaforcongress
+ * Tested up to:      6.5.2
+ * Requires at least: 6.2
+ * Requires PHP:      7.4
+ * License:           GNU General Public License v2.0 or later
+ * License URI:       https://www.gnu.org/licenses/gpl-2.0.html
+ */
+
+ :root {
+    /* Brand colors:  https://www.color-hex.com/color-palette/1044815 */
+    --blue: rgb(41, 47, 109);
+    --pink: rgb(221, 22, 76);
+    --gold: rgb(255, 149, 39);
+    --yellow: rgb(255, 222, 89);
+    --gray: #c4bcb9;
+
+    /* Legacy Site Colors */
+    --og-text: rgb(225, 186, 102);
+    --og-background: var(--blue);
+    --og-banner-yellow: rgb(233, 198, 0);
+    --og-banner-blue: rgb(84, 72, 172);
+
+    /* Neutral colors */
+    --black: #000000;
+    --white: #ffffff;
+    --light-gray: #f5f5f5;
+    --dark-gray: #333333;
+    --medium-gray: #666666;
+    --border-color: #e5e5e5;
+
+    --modal-light-bg: ghostwhite;
+    --modal-dark-bg: dimgray;
+
+  }
+
+ .committee-notice {
+    border: 3px solid var(--gold);
+ }
+
+ .lightbox-image-container {
+    border: 3px solid #d8a36b;
+    border-radius: 20px;
+    background-color: var(--modal-light-bg);
+    padding: 20px;
+ }
